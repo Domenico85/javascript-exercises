@@ -5,7 +5,7 @@ const palindromes = function (str) {
 if (str === reversedString){
     return true;
 }else if(str !== punctuationStr){
-    return true;
+    return true;    
 }else{
     return false;
 }
